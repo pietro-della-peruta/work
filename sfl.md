@@ -6,7 +6,7 @@ Il Supporto per la Formazione e il Lavoro (SFL) è una misura di attivazione al 
 •	politiche attive del lavoro, comunque denominate;
 •	progetti utili alla collettività;
 •	servizio civile universale.
-## A chi è rivolto
+## A chi è rivolto 
 Il Supporto per la Formazione e il Lavoro è rivolto ai singoli componenti di nuclei familiari:
 •	di età compresa tra i 18 e i 59 anni;
 •	in possesso di determinati requisiti di cittadinanza, soggiorno, residenza ed economici. 
