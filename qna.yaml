@@ -42,4 +42,4 @@ seed_examples:
  repo: https://github.com/pietro-della-peruta/work.git
  commit: e1744af
  patterns:
-   - oscars2024_results.md
+   - sfl.md
