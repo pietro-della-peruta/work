@@ -40,6 +40,6 @@ seed_examples:
      navi o imbarcazioni da diporto, nonché aeromobili di qualsiasi genere.
  document:
  repo: https://github.com/pietro-della-peruta/work.git
- commit: e1744af
+ commit: df62897
  patterns:
    - sfl.md
