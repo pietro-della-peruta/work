@@ -39,7 +39,7 @@ seed_examples:
      autoveicoli di cilindrata superiore a 1600 cc o motoveicoli di cilindrata superiore a 250 cc, immatricolati per la prima volta nei 36 mesi antecedenti la richiesta, esclusi gli autoveicoli e i motoveicoli per cui è prevista un’agevolazione fiscale per le persone con disabilità;
      navi o imbarcazioni da diporto, nonché aeromobili di qualsiasi genere.
 document:
-repo: https://github.com/pietro-della-peruta/work.git
-commit: df62897
-patterns:
-   - sfl.md
+  repo: https://github.com/pietro-della-peruta/work.git
+  commit: df62897
+  patterns:
+    - sfl.md
