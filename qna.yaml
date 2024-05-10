@@ -2,29 +2,44 @@ task_description: 'Istruisce il modello sul Servizio Formazione Lavoro (SFL) di 
 created_by: pietro-della-peruta
 domain: italy_public_sector
 seed_examples:
- - question: When did the 2024 Oscars happen?
+ - question: Cosa è il Supporto Formazione Lavoro?
    answer: |
-     The 2024 Oscars were held on March 10, 2024.
- - question: What film had the most Oscar nominations in 2024?
+     il Supporto per la Formazione e il Lavoro (SFL) è una misura di attivazione al lavoro tramite la partecipazione a progetti di:
+     formazione e accompagnamento al lavoro;
+     qualificazione e riqualificazione professionale;
+     politiche attive del lavoro, comunque denominate;
+     progetti utili alla collettività;
+     servizio civile universale.
+ - question: A chi è rivolto il servizio SFL?
    answer: |
-     Oppenheimer had 13 Oscar nominations.
- - question: Who presented the 2024 Oscar for Best Original Screenplay and Best Adapted Screenplay?
+     Il Supporto per la Formazione e il Lavoro è rivolto ai singoli componenti di nuclei familiari di età compresa tra i 18 e i 59 anni;
+     in possesso di determinati requisiti di cittadinanza, soggiorno, residenza ed economici.
+ - question: Quali sono i requisiti di cittadinanza del servizio?
    answer: |
-     Octavia Spencer presented the award for Best Original Screenplay and Best Adapted Screenplay at the 2024 Oscars.
- - question: Who hosted the 2024 Oscars?
+     Il richiedente deve essere:    cittadino italiano o di un altro Paese dell’Unione europea;
+     familiare di un cittadino italiano o dell’Unione europea e titolare del diritto di soggiorno, anche permanente;
+     cittadino di paesi terzi in possesso del permesso di soggiorno UE per soggiornanti di lungo periodo;
+     titolare dello status di protezione internazionale di cui al decreto legislativo 19 novembre 2007, n. 251 o apolide in possesso di analogo permesso.
+ - question: Quali sono i requisiti economici per ottenere il servizio SFL?
    answer: |
-     Jimmy Kimmel hosted the 96th Academy Awards ceremony.
- - question: At the 2024 Oscars, who were the nominees for best director and who won?
+     È necessario possedere, congiuntamente, i seguenti requisiti economici:
+     ISEE familiare, in corso di validità, non superiore a 6.000 euro annui;
+     valore del reddito familiare inferiore a una soglia di 6.000 euro annui, moltiplicata per il corrispondente parametro della scala di equivalenza ai fini ISEE;
+     patrimonio immobiliare in Italia e all’estero (come definito ai fini ISEE) non superiore a 30.000 euro, diverso dalla casa di abitazione di valore IMU non superiore a 150.000 euro;
+     patrimonio mobiliare (come definito ai fini ISEE: depositi, conti correnti, ecc., al lordo delle franchigie) inferiore a:
+     6.000 euro per i nuclei composti da un solo componente;
+     8.000 euro per i nuclei composti da due componenti;
+     10.000 euro per i nuclei composti da tre o più componenti (soglia aumentata di 1.000 euro per ogni minorenne a partire dal terzo)..
+ - question: é possibile incrementare i massimali economici di SFL?
    answer: |
-     The nominees for director at the 2024 Oscars was Christopher Nolan for Oppenheimer,
-     Justine Triet for Anatomy of a Fall, Martin Scorsese for Killers of the Flower Moon,
-     Yorgos Lanthimos for Poor Things, and Jonathan Glazer for The Zone of Interest.
-     Christopher Nolan won best director for Oppenheimer.
- - question: Did Billie Eilish perform at the 2024 Oscars?
-   answer: |
-     Yes Billie Eilish performed "What Was I Made For?" from Barbie at the 2024 Oscars.
-document:
- repo: https://github.com/juliadenham/oscars2024_knowledge.git
+     I massimali possono essere incrementati di:
+     5.000 euro per ogni componente con disabilità;
+     7.500 euro per ogni componente in condizione di disabilità grave o di non autosufficienza presente nel nucleo;
+     non avere nel nucleo familiare alcun componente intestatario a qualunque titolo o nella piena disponibilità di:
+     autoveicoli di cilindrata superiore a 1600 cc o motoveicoli di cilindrata superiore a 250 cc, immatricolati per la prima volta nei 36 mesi antecedenti la richiesta, esclusi gli autoveicoli e i motoveicoli per cui è prevista un’agevolazione fiscale per le persone con disabilità;
+     navi o imbarcazioni da diporto, nonché aeromobili di qualsiasi genere.
+ document:
+ repo: https://github.com/pietro-della-peruta/work.git
  commit: e1744af
  patterns:
    - oscars2024_results.md
