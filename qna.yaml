@@ -1,43 +1,43 @@
-task_description: 'Istruisce il modello sul Servizio Formazione Lavoro (SFL) di INPS'
+task_description: 'Instructs the model on the Servizio Formazione Lavoro (SFL),Job Training Support of INPS.'
 created_by: pietro-della-peruta
 domain: italy_public_sector
 seed_examples:
- - question: Cosa è il Supporto Formazione Lavoro?
+ - question: What is Job Training Support?
    answer: |
-     il Supporto per la Formazione e il Lavoro (SFL) è una misura di attivazione al lavoro tramite la partecipazione a progetti di:
-     formazione e accompagnamento al lavoro;
-     qualificazione e riqualificazione professionale;
-     politiche attive del lavoro, comunque denominate;
-     progetti utili alla collettività;
-     servizio civile universale.
- - question: A chi è rivolto il servizio SFL?
+     Support for Training and Labor (SFL) is a measure of activation to work through participation in projects of:
+     training and job accompaniment;
+     qualification and retraining;
+     active labor policies, however denominated;
+     projects useful to the community;
+     universal civil service.
+ - question: To whom is the SFL service addressed?
    answer: |
-     Il Supporto per la Formazione e il Lavoro è rivolto ai singoli componenti di nuclei familiari di età compresa tra i 18 e i 59 anni;
-     in possesso di determinati requisiti di cittadinanza, soggiorno, residenza ed economici.
- - question: Quali sono i requisiti di cittadinanza del servizio?
+     Training and Employment Support is aimed at individual members of households aged 18 to 59;
+     in possession of certain citizenship, residence, residency and economic requirements.
+ - question: What are the citizenship requirements of the service?
    answer: |
-     Il richiedente deve essere:    cittadino italiano o di un altro Paese dell’Unione europea;
-     familiare di un cittadino italiano o dell’Unione europea e titolare del diritto di soggiorno, anche permanente;
-     cittadino di paesi terzi in possesso del permesso di soggiorno UE per soggiornanti di lungo periodo;
-     titolare dello status di protezione internazionale di cui al decreto legislativo 19 novembre 2007, n. 251 o apolide in possesso di analogo permesso.
- - question: Quali sono i requisiti economici per ottenere il servizio SFL?
+     The applicant must be: a citizen of Italy or another European Union country;
+     family member of an Italian or EU citizen and holder of the right of residence, including permanent residence;
+     third-country national who holds an EU long-term residence permit;
+     holder of international protection status under Legislative Decree No. 251 of November 19, 2007, or stateless person holding a similar permit.
+ - question: What are the economic requirements for obtaining SFL service?
    answer: |
-     È necessario possedere, congiuntamente, i seguenti requisiti economici:
-     ISEE familiare, in corso di validità, non superiore a 6.000 euro annui;
-     valore del reddito familiare inferiore a una soglia di 6.000 euro annui, moltiplicata per il corrispondente parametro della scala di equivalenza ai fini ISEE;
-     patrimonio immobiliare in Italia e all’estero (come definito ai fini ISEE) non superiore a 30.000 euro, diverso dalla casa di abitazione di valore IMU non superiore a 150.000 euro;
-     patrimonio mobiliare (come definito ai fini ISEE: depositi, conti correnti, ecc., al lordo delle franchigie) inferiore a:
-     6.000 euro per i nuclei composti da un solo componente;
-     8.000 euro per i nuclei composti da due componenti;
-     10.000 euro per i nuclei composti da tre o più componenti (soglia aumentata di 1.000 euro per ogni minorenne a partire dal terzo)..
- - question: é possibile incrementare i massimali economici di SFL?
+     You must jointly meet the following economic requirements:
+     Family ISEE, valid, not exceeding 6,000 euros annually;
+     family income value of less than a threshold of 6,000 euros annually, multiplied by the corresponding parameter of the equivalence scale for ISEE purposes;
+     real estate assets in Italy and abroad (as defined for ISEE purposes) not exceeding 30,000 euros, other than the dwelling house of IMU value not exceeding 150,000 euros;
+     movable assets (as defined for ISEE purposes: deposits, current accounts, etc., before deductibles) less than:
+     6,000 euros for single-member households;
+     8,000 euros for households composed of two components;
+     10,000 euros for households composed of three or more components (threshold increased by 1,000 euros for each minor from the third).
+ - question: Is it possible to increase the economic ceilings of SFL?
    answer: |
-     I massimali possono essere incrementati di:
-     5.000 euro per ogni componente con disabilità;
-     7.500 euro per ogni componente in condizione di disabilità grave o di non autosufficienza presente nel nucleo;
-     non avere nel nucleo familiare alcun componente intestatario a qualunque titolo o nella piena disponibilità di:
-     autoveicoli di cilindrata superiore a 1600 cc o motoveicoli di cilindrata superiore a 250 cc, immatricolati per la prima volta nei 36 mesi antecedenti la richiesta, esclusi gli autoveicoli e i motoveicoli per cui è prevista un’agevolazione fiscale per le persone con disabilità;
-     navi o imbarcazioni da diporto, nonché aeromobili di qualsiasi genere.
+     The ceilings can be increased by:
+     5,000 euros for each member with a disability;
+     7,500 euros  for each severely disabled or non-self-sufficient component present in the household;
+     not having in the household any member who is the owner in any capacity or in full possession of:
+     motor vehicles with an engine capacity greater than 1,600 cc or motorcycles with an engine capacity greater than 250 cc, registered for the first time in the 36 months preceding the application, excluding motor vehicles and motorcycles for which there is a tax break for persons with disabilities;
+     recreational ships or boats, as well as aircraft of any kind.
 document:
   repo: https://github.com/pietro-della-peruta/work.git
   commit: df62897
