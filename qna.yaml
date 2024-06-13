@@ -40,6 +40,6 @@ seed_examples:
      recreational ships or boats, as well as aircraft of any kind.
 document:
   repo: https://github.com/pietro-della-peruta/work.git
-  commit: df62897
+  commit: 5f111c6
   patterns:
     - sfl.md
